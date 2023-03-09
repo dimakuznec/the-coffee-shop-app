@@ -207,7 +207,7 @@ body .img-coffee-cup {
   position: absolute;
   width: 680px;
   height: 576px;
-  left: 714px;
+  left: 690px;
   top: 839px;
 }
 body .button-Learn-More {
@@ -253,4 +253,298 @@ body .wish-coffee {
   font-size: 54px;
   line-height: 72px;
   color: #603809;
+}
+body .recommendations {
+  position: absolute;
+  width: 980px;
+  height: 34px;
+  left: 170px;
+  top: 1520px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #707070;
+}
+body .img-cappuccino {
+  position: absolute;
+  width: 280px;
+  height: 222px;
+  left: 93px;
+  top: 1590px;
+}
+body .img-chai-latte {
+  position: absolute;
+  width: 280px;
+  height: 222px;
+  left: 393px;
+  top: 1590px;
+}
+body .img-macchiato {
+  position: absolute;
+  width: 280px;
+  height: 222px;
+  left: 693px;
+  top: 1590px;
+}
+body .img-expresso {
+  position: absolute;
+  width: 280px;
+  height: 222px;
+  left: 993px;
+  top: 1590px;
+}
+body .img-title-Cappuccino {
+  position: absolute;
+  width: 122px;
+  height: 29px;
+  left: 172px;
+  top: 1806px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #603809;
+}
+body .img-cappuccino-skitka {
+  position: absolute;
+  width: 154px;
+  height: 21px;
+  left: 156px;
+  top: 1841px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1E1E1E;
+}
+body .img-cappuccino-price {
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  left: 210px;
+  top: 1868px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #603809;
+}
+body .img-title-Chai-Latte {
+  position: absolute;
+  width: 104px;
+  height: 29px;
+  left: 481px;
+  top: 1806px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #603809;
+}
+body .img-chai-latte-skitka {
+  position: absolute;
+  width: 154px;
+  height: 21px;
+  left: 456px;
+  top: 1841px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1E1E1E;
+}
+body .img-chai-latte-price {
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  left: 510px;
+  top: 1868px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #603809;
+}
+body .img-title-Macchiato {
+  position: absolute;
+  width: 106px;
+  height: 29px;
+  left: 780px;
+  top: 1806px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #603809;
+}
+body .img-macchiato-skitka {
+  position: absolute;
+  width: 154px;
+  height: 21px;
+  left: 756px;
+  top: 1841px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1E1E1E;
+}
+body .img-macchiato-price {
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  left: 810px;
+  top: 1868px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #603809;
+}
+body .img-title-Expresso {
+  position: absolute;
+  width: 93px;
+  height: 29px;
+  left: 1087px;
+  top: 1806px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #603809;
+}
+body .img-expresso-skitka {
+  position: absolute;
+  width: 154px;
+  height: 21px;
+  left: 1056px;
+  top: 1841px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1E1E1E;
+}
+body .img-expresso-price {
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  left: 1110px;
+  top: 1868px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #603809;
+}
+body .link-button-Order-Now-cappuccino {
+  position: absolute;
+  width: 134px;
+  height: 48px;
+  left: 166px;
+  top: 1910px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 24px;
+}
+body .link-button-Order-Now-chai-latte {
+  position: absolute;
+  width: 134px;
+  height: 48px;
+  left: 466px;
+  top: 1910px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 24px;
+}
+body .link-button-Order-Now-Macchiato {
+  position: absolute;
+  width: 134px;
+  height: 48px;
+  left: 766px;
+  top: 1910px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 24px;
+}
+body .link-button-Order-Now-Expresso {
+  position: absolute;
+  width: 134px;
+  height: 48px;
+  left: 1066px;
+  top: 1910px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 24px;
+}
+body .Cappuccino-link-Order-Now {
+  position: absolute;
+  width: 82px;
+  height: 21px;
+  left: 26px;
+  top: 11px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #1E1E1E;
+}
+body .Chai-Latte-link-Order-Now {
+  position: absolute;
+  width: 82px;
+  height: 21px;
+  left: 26px;
+  top: 11px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #1E1E1E;
+}
+body .Macchiato-link-Order-Now {
+  position: absolute;
+  width: 82px;
+  height: 21px;
+  left: 26px;
+  top: 11px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #1E1E1E;
+}
+body .Expresso-link-Order-Now {
+  position: absolute;
+  width: 82px;
+  height: 21px;
+  left: 26px;
+  top: 11px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #1E1E1E;
 }/*# sourceMappingURL=index.css.map */

@@ -547,4 +547,186 @@ body .Expresso-link-Order-Now {
   line-height: 21px;
   text-decoration: none;
   color: #1E1E1E;
+}
+body .div-question-coffee-shop {
+  position: absolute;
+  width: 578px;
+  height: 112px;
+  left: 394px;
+  top: 2020px;
+}
+body .question-coffee-shop {
+  width: 538px;
+  height: 72px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 72px;
+  color: #603809;
+}
+body .inscription-wishes {
+  position: absolute;
+  width: 980px;
+  height: 34px;
+  left: 163px;
+  top: 2128px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #707070;
+}
+body .img-coffee-blast {
+  position: absolute;
+  width: 378px;
+  height: 261px;
+  left: 989px;
+  top: 1920px;
+}
+body .Group-background {
+  position: absolute;
+  width: 280px;
+  height: 284px;
+  left: 93px;
+  top: 2194px;
+  background: #FFEED8;
+}
+body .group-coffee {
+  position: absolute;
+  width: 201px;
+  height: 212px;
+  left: 132px;
+  top: 2230px;
+}
+body .background-high-quality {
+  position: absolute;
+  width: 280px;
+  height: 284px;
+  left: 393px;
+  top: 2194px;
+}
+body .group-high-quality {
+  position: absolute;
+  width: 166px;
+  height: 212px;
+  left: 450px;
+  top: 2230px;
+}
+body .background-Extraordinary {
+  position: absolute;
+  width: 280px;
+  height: 284px;
+  left: 693px;
+  top: 2194px;
+}
+body .group-extraordinary {
+  position: absolute;
+  width: 183px;
+  height: 212px;
+  left: 742px;
+  top: 2230px;
+}
+body .background-Affordable-Price {
+  position: absolute;
+  width: 280px;
+  height: 284px;
+  left: 993px;
+  top: 2194px;
+}
+body .group-affordable-price {
+  position: absolute;
+  width: 211px;
+  height: 212px;
+  left: 1028px;
+  top: 2230px;
+}
+body .motivation-quote-coffee {
+  position: absolute;
+  width: 980px;
+  height: 70px;
+  left: 193px;
+  top: 2510px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #707070;
+}
+body .continuation-quote-coffee {
+  position: absolute;
+  width: 980px;
+  height: 70px;
+  left: 193px;
+  top: 2525px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #603809;
+}
+body .button-Join-Us {
+  position: absolute;
+  width: 134px;
+  height: 48px;
+  left: 616px;
+  top: 2604px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 24px;
+}
+body .link-Join-Us {
+  position: absolute;
+  width: 52px;
+  height: 21px;
+  left: 40px;
+  top: 11px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #1E1E1E;
+}
+body .coffee {
+  position: absolute;
+  width: 1366px;
+  height: 574px;
+  left: 0px;
+  top: 2734px;
+}
+body .img-coffee-bean {
+  position: absolute;
+  width: 657px;
+  height: 574px;
+  left: 710px;
+  top: 2734px;
+}
+body .img-cup {
+  position: absolute;
+  width: 300px;
+  height: 467px;
+  left: 893px;
+  top: 2788px;
+  filter: drop-shadow(0px 10px 12px rgba(0, 0, 0, 0.34));
+}
+body .feedback-coffee {
+  position: absolute;
+  width: 764px;
+  height: 72px;
+  left: 301px;
+  top: 3390px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 72px;
+  color: #603809;
 }/*# sourceMappingURL=index.css.map */

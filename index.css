@@ -5,6 +5,18 @@ body {
   height: 5085px;
   background: #FFFEFC;
   margin: 0;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 body .header {
   position: absolute;
@@ -12,7 +24,7 @@ body .header {
   height: 768px;
   left: 0px;
   top: 0px;
-  background-image: url(img/coffee_image.png);
+  background-image: url("img/coffee_image.png");
   font-family: "Clicker Script", cursive;
 }
 body .logo-cafe {
@@ -28,6 +40,10 @@ body .logo-cafe {
   line-height: 46px;
   text-decoration: none;
   color: #FFFFFF;
+  z-index: 3;
+}
+body .logo-cafe:hover {
+  color: #F9C06A;
 }
 body .link-home {
   position: absolute;
@@ -43,6 +59,9 @@ body .link-home {
   text-decoration: none;
   color: #FFFFFF;
 }
+body .link-home:hover {
+  color: #F9C06A;
+}
 body .link-menu {
   position: absolute;
   width: 36px;
@@ -56,6 +75,9 @@ body .link-menu {
   line-height: 19px;
   text-decoration: none;
   color: #FFFFFF;
+}
+body .link-menu:hover {
+  color: #F9C06A;
 }
 body .link-about-us {
   position: absolute;
@@ -71,6 +93,9 @@ body .link-about-us {
   text-decoration: none;
   color: #FFFFFF;
 }
+body .link-about-us:hover {
+  color: #F9C06A;
+}
 body .link-contact-us {
   position: absolute;
   width: 69px;
@@ -85,6 +110,9 @@ body .link-contact-us {
   text-decoration: none;
   color: #FFFFFF;
 }
+body .link-contact-us:hover {
+  color: #F9C06A;
+}
 body .link-sign-in {
   position: absolute;
   width: 45px;
@@ -98,6 +126,9 @@ body .link-sign-in {
   font-size: 14px;
   line-height: 19px;
   color: #FFFFFF;
+}
+body .link-sign-in:hover {
+  color: #F9C06A;
 }
 body .link-button {
   position: absolute;
@@ -118,6 +149,9 @@ body .link-singup {
   color: #1E1E1E;
   font-family: "Playfair Display";
   text-decoration: none;
+}
+body .link-singup:hover {
+  color: #FFFFFF;
 }
 body .description-wish {
   position: absolute;
@@ -181,6 +215,9 @@ body .link-Order-Now {
   color: #1E1E1E;
   text-decoration: none;
 }
+body .link-Order-Now:hover {
+  color: #FFFFFF;
+}
 body .description-coffee {
   position: absolute;
   width: 585px;
@@ -207,7 +244,7 @@ body .img-coffee-cup {
   position: absolute;
   width: 680px;
   height: 576px;
-  left: 690px;
+  left: 699px;
   top: 839px;
 }
 body .button-Learn-More {
@@ -233,6 +270,9 @@ body .link-Learn-More {
   line-height: 21px;
   text-decoration: none;
   color: #1E1E1E;
+}
+body .link-Learn-More:hover {
+  color: #FFFFFF;
 }
 body .coffee-blast {
   position: absolute;
@@ -506,6 +546,9 @@ body .Cappuccino-link-Order-Now {
   text-decoration: none;
   color: #1E1E1E;
 }
+body .Cappuccino-link-Order-Now:hover {
+  color: #FFFFFF;
+}
 body .Chai-Latte-link-Order-Now {
   position: absolute;
   width: 82px;
@@ -519,6 +562,9 @@ body .Chai-Latte-link-Order-Now {
   line-height: 21px;
   text-decoration: none;
   color: #1E1E1E;
+}
+body .Chai-Latte-link-Order-Now:hover {
+  color: #FFFFFF;
 }
 body .Macchiato-link-Order-Now {
   position: absolute;
@@ -534,6 +580,9 @@ body .Macchiato-link-Order-Now {
   text-decoration: none;
   color: #1E1E1E;
 }
+body .Macchiato-link-Order-Now:hover {
+  color: #FFFFFF;
+}
 body .Expresso-link-Order-Now {
   position: absolute;
   width: 82px;
@@ -547,6 +596,9 @@ body .Expresso-link-Order-Now {
   line-height: 21px;
   text-decoration: none;
   color: #1E1E1E;
+}
+body .Expresso-link-Order-Now:hover {
+  color: #FFFFFF;
 }
 body .div-question-coffee-shop {
   position: absolute;
@@ -584,7 +636,7 @@ body .img-coffee-blast {
   width: 378px;
   height: 261px;
   left: 989px;
-  top: 1920px;
+  top: 1930px;
 }
 body .Group-background {
   position: absolute;
@@ -695,6 +747,9 @@ body .link-Join-Us {
   text-decoration: none;
   color: #1E1E1E;
 }
+body .link-Join-Us:hover {
+  color: #FFFFFF;
+}
 body .coffee {
   position: absolute;
   width: 1366px;
@@ -766,6 +821,9 @@ body .coffee-order-now {
   line-height: 21px;
   text-decoration: none;
   color: #1E1E1E;
+}
+body .coffee-order-now:hover {
+  color: #FFFFFF;
 }
 body .feedback-coffee {
   position: absolute;
@@ -988,6 +1046,10 @@ body .button-Suscribe {
   font-size: 22px;
   font-weight: 700;
   border: none;
+  cursor: pointer;
+}
+body .button-Suscribe:hover {
+  color: #FFFFFF;
 }
 body .img-link-cellular-networks {
   position: absolute;
@@ -1000,14 +1062,14 @@ body .img-link-Facebok {
   width: 24px;
   height: 24px;
   left: 93px;
-  top: 4989px;
+  top: 4987px;
 }
 body .img-link-Instagram {
   position: absolute;
   width: 24px;
   height: 24px;
   left: 137px;
-  top: 4989px;
+  top: 4987px;
 }
 body .img-link-Youtube {
   position: absolute;
@@ -1049,7 +1111,7 @@ body .Lorem-Ipsum {
   line-height: 22px;
   color: #FFFFFF;
 }
-body .description {
+body .description-p {
   position: absolute;
   width: 136px;
   height: 168px;

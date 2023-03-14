@@ -1,34 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
-body {
-    position: relative;
-    width: 1366px;
-    height: 5085px;
-    background: #FFFEFC;
-    margin: 0;
 
+
+body {
+  position: relative;
+  width: 1366px;
+  height: 5085px;
+  background: #FFFEFC;
+  margin: 0;
+  animation-duration: 2s;
+  animation-name: slidein;
+
+    @keyframes slidein {
+      from{
+         margin-left: 100%;
+         width: 300%;
+      }
+      to{
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+   
     .header {
-        position: absolute;
-        width: 1366px;
-        height: 768px;
-        left: 0px;
-        top: 0px;
-        background-image: url(img/coffee_image.png);
-        font-family: 'Clicker Script', cursive;
+      position: absolute;
+      width: 1366px;
+      height: 768px;
+      left: 0px;
+      top: 0px;
+      background-image: url("img/coffee_image.png");
+      font-family: 'Clicker Script', cursive;
     }
 
     .logo-cafe {
-        position: absolute;
-        width: 135px;
-        height: 46px;
-        left: 93px;
-        top: 21px;
-        font-family: 'Clicker Script';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 35px;
-        line-height: 46px;
-        text-decoration: none;
-        color: #FFFFFF;        
+      position: absolute;
+      width: 135px;
+      height: 46px;
+      left: 93px;
+      top: 21px;
+      font-family: 'Clicker Script';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 46px;
+      text-decoration: none;
+      color: #FFFFFF;
+      z-index: 3;        
+    }
+
+    .logo-cafe:hover {
+       color: #F9C06A;
     }
 
     .link-home {
@@ -46,6 +66,10 @@ body {
         color: #FFFFFF;
     }
 
+    .link-home:hover {
+        color: #F9C06A;
+    }
+
     .link-menu {
         position: absolute;
         width: 36px;
@@ -61,6 +85,10 @@ body {
         color: #FFFFFF;
     }
 
+    .link-menu:hover {
+       color: #F9C06A;
+    }
+
     .link-about-us {
         position: absolute;
         width: 57px;
@@ -74,6 +102,10 @@ body {
         line-height: 19px;
         text-decoration: none;
         color: #FFFFFF;
+    }
+    
+    .link-about-us:hover {
+      color: #F9C06A;
     }
 
     .link-contact-us {
@@ -91,6 +123,10 @@ body {
         color: #FFFFFF;
     }
 
+    .link-contact-us:hover {
+      color: #F9C06A;  
+    }
+
     .link-sign-in {
         position: absolute;
         width: 45px;
@@ -106,6 +142,10 @@ body {
         color: #FFFFFF;   
     }
 
+    .link-sign-in:hover {
+      color: #F9C06A;
+    }
+
     .link-button {
         position: absolute;
         width: 100px;
@@ -116,7 +156,7 @@ body {
         box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
         border-radius: 24px;
     }
-
+    
     .link-singup {
         position: absolute;
         width: 43.81px;
@@ -126,6 +166,10 @@ body {
         color: #1E1E1E;
         font-family: 'Playfair Display';
         text-decoration: none;
+    }
+
+    .link-singup:hover {
+        color: #FFFFFF;
     }
 
     .description-wish {
@@ -195,6 +239,10 @@ body {
         text-decoration: none;        
     }
 
+    .link-Order-Now:hover {
+      color: #FFFFFF;
+    }
+
   .description-coffee {
     position: absolute;
     width: 585px;
@@ -223,7 +271,7 @@ body {
     position: absolute;
     width: 680px;
     height: 576px;
-    left: 690px;
+    left: 699px;
     top: 839px;    
   }
 
@@ -251,6 +299,10 @@ body {
     line-height: 21px;
     text-decoration: none;
     color: #1E1E1E;
+  }
+
+  .link-Learn-More:hover {
+    color: #FFFFFF;
   }
 
   .coffee-blast {
@@ -554,6 +606,10 @@ body {
     color: #1E1E1E;    
   }
 
+  .Cappuccino-link-Order-Now:hover {
+    color: #FFFFFF;
+  }
+
   .Chai-Latte-link-Order-Now {
     position: absolute;
     width: 82px;
@@ -567,6 +623,10 @@ body {
     line-height: 21px;
     text-decoration: none;
     color: #1E1E1E;    
+  }
+
+  .Chai-Latte-link-Order-Now:hover {
+    color: #FFFFFF;
   }
 
   .Macchiato-link-Order-Now {
@@ -584,6 +644,10 @@ body {
     color: #1E1E1E;
   }
 
+  .Macchiato-link-Order-Now:hover {
+    color: #FFFFFF;
+  }
+
   .Expresso-link-Order-Now {
     position: absolute;
     width: 82px;
@@ -596,7 +660,11 @@ body {
     font-size: 16px;
     line-height: 21px;
     text-decoration: none;
-    color: #1E1E1E;    
+    color: #1E1E1E;   
+  }
+
+  .Expresso-link-Order-Now:hover {
+    color: #FFFFFF;
   }
 
  .div-question-coffee-shop {
@@ -638,7 +706,7 @@ body {
     width: 378px;
     height: 261px;
     left: 989px;
-    top: 1920px;
+    top: 1930px;
  }
 
  .Group-background {
@@ -765,6 +833,10 @@ body {
     text-decoration: none;
     color: #1E1E1E;    
  }
+
+ .link-Join-Us:hover {
+   color: #FFFFFF;
+ } 
  
  .coffee {
     position: absolute;
@@ -844,6 +916,10 @@ body {
     text-decoration: none;
     color: #1E1E1E;    
 }
+
+ .coffee-order-now:hover {
+   color: #FFFFFF;
+ }
 
  .feedback-coffee {
     position: absolute;
@@ -1086,6 +1162,11 @@ body {
    font-size: 22px;
    font-weight: 700;
    border: none;
+   cursor: pointer;
+ }
+
+ .button-Suscribe:hover {
+   color: #FFFFFF;
  }
 
  .img-link-cellular-networks {
@@ -1100,7 +1181,7 @@ body {
    width: 24px;
    height: 24px;
    left: 93px;
-   top: 4989px;   
+   top: 4987px;  
  }
 
  .img-link-Instagram {
@@ -1108,7 +1189,7 @@ body {
    width: 24px;
    height: 24px;
    left: 137px;
-   top: 4989px;   
+   top: 4987px;   
  }
 
  .img-link-Youtube {
@@ -1156,7 +1237,7 @@ body {
  }
 
  
- .description {
+ .description-p {
    position: absolute;
    width: 136px;
    height: 168px;

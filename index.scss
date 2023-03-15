@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
 
-
 body {
   position: relative;
   width: 1366px;
@@ -9,7 +8,7 @@ body {
   margin: 0;
   animation-duration: 2s;
   animation-name: slidein;
-
+   //Effect when updating pages
     @keyframes slidein {
       from{
          margin-left: 100%;
@@ -271,7 +270,7 @@ body {
     position: absolute;
     width: 680px;
     height: 576px;
-    left: 699px;
+    left: 700px;
     top: 839px;    
   }
 
@@ -950,7 +949,7 @@ body {
     color: #707070;
  }
 
- .Rectangle {
+ .frame-background {
     box-sizing: border-box;
     position: absolute;
     width: 980px;

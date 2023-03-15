@@ -244,7 +244,7 @@ body .img-coffee-cup {
   position: absolute;
   width: 680px;
   height: 576px;
-  left: 699px;
+  left: 700px;
   top: 839px;
 }
 body .button-Learn-More {
@@ -852,7 +852,7 @@ body .reviews-customer {
   text-align: center;
   color: #707070;
 }
-body .Rectangle {
+body .frame-background {
   box-sizing: border-box;
   position: absolute;
   width: 980px;

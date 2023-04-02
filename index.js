@@ -8,3 +8,8 @@ document.onmousemove = (e)=> {
     jsImgCoffeeCup.style.transform = "translate(-" + x * 50 + "px, -" + y * 50 + "px)";
 	jsContent.style.transform = "translate(-" + x * 50 + "px, -" + y * 50 + "px)";
 };
+
+function handleClick() {
+	let inputText = document.getElementById("input-field").value;
+	alert("Вы ввели: " + inputText);
+}

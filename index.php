@@ -1,3 +1,7 @@
+<?php
+ require("indexbd.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +20,7 @@
                 <a class="link-menu" href="#"> Menu</a>
                 <a class="link-about-us" href="#">About Us</a>
                 <a class="link-contact-us" href="#">Contact Us</a>
-                <a class="link-sign-in" href="#">Sign In</a>
+                <a class="link-sign-in" href="registration.php">Sign In</a>
             </div>
 
             <div class="link-button">
@@ -75,23 +79,23 @@
             <p class="img-expresso-price">$8.50</p>
        </div>
         
-       <div>
+       <form action="create.php" method="post">
             <div class="link-button-Order-Now-cappuccino">
-                <a class="Cappuccino-link-Order-Now" href="#">Order Now</a>
+                <a name="Cappuccino" type="submit" class="Cappuccino-link-Order-Now" href="create.php?id=Cappuccino">Order Now</a>
             </div>
     
             <div class="link-button-Order-Now-chai-latte">
-                <a class="Chai-Latte-link-Order-Now" href="#">Order Now</a>
+                <a type="submit" class="Chai-Latte-link-Order-Now" href="create.php?id=Chai-Latte">Order Now</a>
             </div>
     
             <div class="link-button-Order-Now-Macchiato">
-                <a class="Macchiato-link-Order-Now" href="#">Order Now</a>
+                <a  type="submit"class="Macchiato-link-Order-Now" href="create.php?id=Macchiato">Order Now</a>
             </div>
     
             <div class="link-button-Order-Now-Expresso">
-                <a class="Expresso-link-Order-Now" href="#">Order Now</a>
+                <a type="submit" class="Expresso-link-Order-Now" href="create.php?id=Expresso">Order Now</a>
             </div>
-       </div>
+       </form>
 
        <div class="div-question-coffee-shop">
             <p class="question-coffee-shop">Why are we different?</p>
@@ -233,6 +237,8 @@
             </div>
         </div>
     </header>
+    <script src="create.php"></script>
+    <script src="registration.php"></script>
     <script src="index.js"></script>
 </body>
 </html>
